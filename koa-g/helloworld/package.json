@@ -23,26 +23,11 @@
     "react": "^17.0.1"
   },
   "devDependencies": {
+    "@ava/babel": "^1.0.1",
     "ava": "^3.15.0",
     "nodemon": "^1.19.1"
   },
   "ava": {
-    "babel": {
-      "presets": [
-        "es2015",
-        "stage-0",
-        "react"
-      ]
-    },
-    "files": [
-      "test/*.js",
-      "!**/not-this-file.js"
-    ],
-    "source": [
-      "**/*.{js,jsx}",
-      "!dist/**/*"
-    ],
-    "failFast": true,
-    "tap": true
+    "babel": true
   }
 }

@@ -8,5 +8,5 @@ function add (a, b) {
 
 test('simple test', t => {
   let c = add(1, 2);
-  t.is(c);
+  t.is(c, 3);
 });
